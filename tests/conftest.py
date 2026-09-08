@@ -12,6 +12,22 @@ TODAY = date(2026, 9, 12)
 
 
 @pytest.fixture
+def scratch_dir(request):
+    """Repo-local scratch folder (out/test_scratch/<test>) instead of pytest's tmp_path.
+    The Microsoft Store Python build sandboxes AppData\Local\Temp and raises WinError 5
+    when pytest tries to create its default temp root there."""
+    import re
+    import shutil
+
+    name = re.sub(r"[^A-Za-z0-9_.-]+", "_", request.node.name)
+    path = ROOT / "out" / "test_scratch" / name
+    if path.exists():
+        shutil.rmtree(path, ignore_errors=True)
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+@pytest.fixture
 def settings():
     from pqm_agent.config import load_settings
 

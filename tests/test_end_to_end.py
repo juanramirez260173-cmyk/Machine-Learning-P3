@@ -1,13 +1,11 @@
 """Golden journey: the demo must reproduce the pilot acceptance behaviour."""
 from pathlib import Path
 
-from conftest import ROOT
 
-
-def test_demo_journey(tmp_path):
+def test_demo_journey(scratch_dir):
     from scripts.demo import run_demo
 
-    store, pkg, paths = run_demo(tmp_path / "demo.db", tmp_path / "out", llm="rules", verbose=False)
+    store, pkg, paths = run_demo(scratch_dir / "demo.db", scratch_dir / "out", llm="rules", verbose=False)
     assert pkg.read_across.d7_complete
     from pqm_agent.models import Case
 
