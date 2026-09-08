@@ -1,0 +1,5 @@
+Process Step,Function,Failure Mode,Effect,S,Cause,O,Prevention Control,Detection Control,D,AP
+OP20 Laser welding inlet tank,Weld tank to core plate leak-tight,Lack of penetration at weld seam,Coolant leakage at customer / engine overheating,8,Protective glass contamination reduces laser power at workpiece,2,Laser power monitoring at workpiece with interlock; protective glass change on power drop,Helium leak test 2.5 bar OP60 100 %,3,L
+OP20 Laser welding inlet tank,Weld tank to core plate leak-tight,Lack of penetration at weld seam,Coolant leakage at customer,8,Fixture clamping gap > 0.1 mm,2,Fixture gap check at shift start,Helium leak test 2.5 bar OP60 100 %,3,L
+OP20 Laser welding inlet tank,Weld tank to core plate leak-tight,Weld spatter,Cosmetic,3,Contaminated surface,3,Cleaning before welding,Visual inspection,6,L
+OP60 Leak test,Detect leaking assemblies,Leak not detected,Leak at customer,8,Test pressure below customer EOL pressure so marginal welds pass,2,Control Plan pressure 2.5 bar aligned with customer EOL,Daily master part check with calibrated leak,3,L

@@ -1,0 +1,4 @@
+{"evidence_id": "EV-GEN-01", "evidence_type": "genealogy", "title": "MES genealogy export lots L26-0812 / L26-0813",
+ "source_path": "mes_genealogy.txt", "owner": "J. Novak", "created_date": "2026-08-30",
+ "excerpt": "1,240 assemblies produced on line 2 between 12-Aug 06:00 and 13-Aug 22:00; 480 delivered to customer, 610 in finished goods, 150 in transit.",
+ "structured": {"quantity_in_window": 1240, "delivered": 480, "finished_goods": 610, "in_transit": 150}}

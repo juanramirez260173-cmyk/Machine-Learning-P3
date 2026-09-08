@@ -1,0 +1,4 @@
+Step,Instruction,Key Point
+1,Load inlet tank and core plate into fixture; check fixture gap with 0.1 mm feeler gauge at shift start,Gap must not accept the gauge
+2,Close clamps and start weld program 7; confirm laser power monitoring green,Do not start if power monitor is red - change protective glass
+3,Unload and place on conveyor,Do not touch weld seam

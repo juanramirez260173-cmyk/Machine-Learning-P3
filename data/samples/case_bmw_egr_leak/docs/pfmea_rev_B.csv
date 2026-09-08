@@ -1,0 +1,4 @@
+Process Step,Function,Failure Mode,Effect,S,Cause,O,Prevention Control,Detection Control,D,AP
+OP20 Laser welding inlet tank,Weld tank to core plate leak-tight,Lack of penetration at weld seam,Coolant leakage at customer / engine overheating,8,Laser power below setpoint,3,Weekly laser power check,Helium leak test 1.5 bar OP60,5,M
+OP20 Laser welding inlet tank,Weld tank to core plate leak-tight,Weld spatter,Cosmetic,3,Contaminated surface,3,Cleaning before welding,Visual inspection,6,L
+OP60 Leak test,Detect leaking assemblies,Leak not detected,Leak at customer,8,Test pressure too low for marginal welds,3,Control Plan pressure setting,Daily master part check,6,M

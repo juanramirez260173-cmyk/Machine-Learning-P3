@@ -1,0 +1,1 @@
+Customer complaint PQM-4711-2026: 3 of 480 EGR cooler assemblies failed EOL leak test (18 cm3/min @ 2.5 bar). Coolant trace at inlet tank weld seam.

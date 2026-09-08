@@ -1,0 +1,5 @@
+{"case_id": "8D-2025-101", "customer": "OEM-B", "year": 2025, "title": "Coolant leakage at laser weld seam - EGR cooler inlet tank",
+ "failure_mode": "Coolant leakage at laser weld seam", "process_step": "OP20 laser welding inlet tank", "component": "EGR cooler inlet tank",
+ "symptom": "Leak at customer EOL test", "root_cause_family": "Fixture clamping gap", "occurrence_cause": "Fixture clamp wear created gap > 0.1 mm",
+ "escape_cause": "Leak test pressure below customer test", "corrective_actions": ["Fixture gap check per shift", "Leak test pressure raised"],
+ "lessons_learned": "Fixture wear check per shift; align test pressure.", "outcome": "closed on time", "duration_days": 38, "source_path": "sharepoint://quality/8d/8D-2025-101"}

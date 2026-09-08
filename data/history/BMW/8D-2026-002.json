@@ -1,0 +1,6 @@
+{"case_id": "8D-2026-002", "customer": "BMW", "year": 2026, "title": "DMC unreadable on EGR cooler housing",
+ "failure_mode": "Data matrix code not readable", "process_step": "OP70 laser marking", "component": "EGR cooler housing",
+ "symptom": "Scanner no-read at customer assembly line", "root_cause_family": "Marking laser focus drift",
+ "occurrence_cause": "Focus shifted after maintenance without re-verification", "escape_cause": "Grade verification done with a different scanner model than the customer",
+ "corrective_actions": ["Post-maintenance marking verification", "Customer-equivalent scanner for grading"], "lessons_learned": "Verification equipment must match customer equipment.",
+ "outcome": "closed on time", "duration_days": 30, "source_path": "sharepoint://quality/8d/8D-2026-002"}

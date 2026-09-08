@@ -1,0 +1,4 @@
+Process Step,Characteristic,Specification,Evaluation Method,Sample Size,Frequency,Control Method,Reaction Plan
+OP20 Laser welding,Weld penetration depth,>= 0.60 mm,Cross-section,3,Per shift,SPC chart,Stop line; contain since last good sample; re-qualify laser
+OP20 Laser welding,Laser power at workpiece,>= 95 % of setpoint,Inline power monitoring,100 %,Every part,Interlock,Stop; change protective glass; re-verify with power meter
+OP60 Leak test,Leak rate,<= 2.0 cm3/min at 2.5 bar,Helium leak tester,100 %,Every part,Automatic reject,Quarantine; 100 % re-test of lot since last master-part check

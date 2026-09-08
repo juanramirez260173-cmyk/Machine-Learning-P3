@@ -1,0 +1,13 @@
+{"evidence_id": "EV-MEAS-01", "evidence_type": "measurement_report", "title": "Metallographic cross-section report MR-26-0912",
+ "source_path": "MR-26-0912.txt", "owner": "A. Kumar", "created_date": "2026-09-01",
+ "excerpt": "Weld penetration depth at 3 o'clock: 0.42 mm (spec min 0.60 mm). Positions 6/9/12 o'clock within spec (0.71-0.78 mm). Indicates local loss of laser power or focus shift at seam start.",
+ "structured": {"penetration_mm_3oclock": 0.42, "penetration_spec_min_mm": 0.60,
+   "candidate_causes": [
+     {"cause_type": "occurrence", "description": "Protective glass contamination on laser optic reduced power at seam start (3 o'clock)",
+      "five_why": ["Lack of penetration at 3 o'clock", "Laser power at workpiece below setpoint at seam start", "Protective glass contaminated by spatter", "Glass change interval based on time, not on power monitoring", "No power-at-workpiece check in setup"],
+      "validation_plan": "Measure power at workpiece with calibrated power meter before/after glass change; cross-section 5 parts each condition",
+      "proposed_action": "Install laser power monitoring at workpiece with interlock and change protective glass on power drop", "priority": 1},
+     {"cause_type": "occurrence", "description": "Fixture clamping gap at inlet tank position 3 o'clock exceeding 0.1 mm",
+      "five_why": ["Lack of penetration", "Gap between tank and core plate", "Clamp wear on fixture 2"],
+      "validation_plan": "Gap measurement with feeler gauge on fixture 2 vs fixture 1; 30 parts", "priority": 2}
+   ]}}

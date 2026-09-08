@@ -1,0 +1,6 @@
+{"case_id": "8D-2025-019", "customer": "BMW", "year": 2025, "title": "Brazing leak at tube-to-header joint - oil cooler",
+ "failure_mode": "Oil leakage at brazed joint", "process_step": "OP15 vacuum brazing", "component": "Oil cooler header",
+ "symptom": "Oil trace after pressure cycling", "root_cause_family": "Braze filler shortage due to clip placement",
+ "occurrence_cause": "Filler clip displaced in fixture", "escape_cause": "Leak test not sensitive to micro-leaks at operating temperature",
+ "corrective_actions": ["Poka-yoke clip fixture", "Helium leak test sensitivity increased"], "lessons_learned": "Leak tests must reflect customer test conditions (pressure, medium, temperature).",
+ "outcome": "closed on time", "duration_days": 52, "source_path": "sharepoint://quality/8d/8D-2025-019"}

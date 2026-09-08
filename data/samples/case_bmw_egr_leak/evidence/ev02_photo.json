@@ -1,0 +1,4 @@
+{"evidence_id": "EV-PHOTO-01", "evidence_type": "photo", "title": "Photo set returned parts - weld seam 3 o'clock",
+ "source_path": "photos_returned_parts.txt", "owner": "S. Weber", "created_date": "2026-08-29",
+ "excerpt": "Macro photos show incomplete fusion (lack of penetration) at 3 o'clock position of inlet tank weld, ~6 mm length, on all 3 parts.",
+ "structured": {"defect_location_deg": 90, "defect_length_mm": 6}}

@@ -1,0 +1,5 @@
+[
+ {"path": "docs/pfmea_rev_B.csv", "document_type": "pfmea", "document_number": "PFMEA-EGR-L2", "revision": "B", "release_state": "released", "owner": "L. Fischer", "effective_date": "2025-11-10"},
+ {"path": "docs/control_plan_rev_3.csv", "document_type": "control_plan", "document_number": "CP-EGR-L2", "revision": "3", "release_state": "released", "owner": "R. Diaz", "effective_date": "2025-11-10"},
+ {"path": "docs/wi_laser_rev_2.csv", "document_type": "work_instruction", "document_number": "WI-OP20", "revision": "2", "release_state": "released", "owner": "A. Kumar", "effective_date": "2025-11-10"}
+]

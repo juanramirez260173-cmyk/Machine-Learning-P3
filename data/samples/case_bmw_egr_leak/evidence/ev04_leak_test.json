@@ -1,0 +1,10 @@
+{"evidence_id": "EV-TEST-01", "evidence_type": "test_report", "title": "In-house leak test data export 12-13 Aug (line 2)",
+ "source_path": "leak_test_export.txt", "owner": "J. Novak", "created_date": "2026-09-01",
+ "excerpt": "In-house helium leak test on 12-13 Aug: 480 parts tested, 0 rejects. Test pressure 1.5 bar (customer EOL uses 2.5 bar). Defective DMCs passed at 1.5 bar.",
+ "structured": {"test_pressure_bar": 1.5, "customer_pressure_bar": 2.5, "rejects": 0, "tested": 480,
+   "candidate_causes": [
+     {"cause_type": "escape", "description": "In-house leak test pressure 1.5 bar below customer EOL pressure 2.5 bar so marginal welds pass",
+      "five_why": ["Defective parts passed in-house test", "Test pressure 1.5 bar", "Control Plan specifies 1.5 bar from previous product generation"],
+      "validation_plan": "Re-test the 3 returned parts at 1.5 and 2.5 bar; detection capability study at 2.5 bar",
+      "proposed_action": "Raise in-house leak test pressure to 2.5 bar with 100 % test and reaction plan", "priority": 1}
+   ]}}

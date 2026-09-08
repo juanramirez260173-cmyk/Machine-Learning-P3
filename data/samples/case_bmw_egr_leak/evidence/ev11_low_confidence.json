@@ -1,0 +1,3 @@
+{"evidence_id": "EV-EMAIL-01", "evidence_type": "email", "title": "Scanned e-mail from customer resident engineer (OCR)",
+ "source_path": "email_ocr.txt", "owner": "S. Weber", "created_date": "2026-08-28", "extraction_confidence": 0.45,
+ "excerpt": "OCR text partially unreadable: '... suspect ... second supplier ... coolant ...'"}

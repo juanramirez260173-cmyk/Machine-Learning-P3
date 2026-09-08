@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pqm-agent"
+version = "0.1.0"
+description = "P3 Rank 6 - 8D / PQM Quality-Escalation Agent (human-controlled 8D drafting, evidence traceability, PFMEA/Control Plan read-across, escalation and cockpit)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary - internal P3 working asset" }
+dependencies = [
+    "pydantic>=2.5",
+    "PyYAML>=6.0",
+    "numpy>=1.24",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+llm = ["anthropic>=1.0"]
+embeddings = ["sentence-transformers>=2.2"]
+cockpit = ["streamlit>=1.30", "pandas>=2.0"]
+dev = ["pytest>=7.0", "anthropic>=1.0"]
+
+[project.scripts]
+pqm-agent = "pqm_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pqm_agent*"]
+
+[tool.setuptools.package-data]
+pqm_agent = ["prompts/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

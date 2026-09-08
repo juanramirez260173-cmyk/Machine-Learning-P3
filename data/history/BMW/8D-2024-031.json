@@ -1,0 +1,7 @@
+{"case_id": "8D-2024-031", "customer": "BMW", "year": 2024, "title": "Coolant leak at laser weld seam - charge air cooler tank",
+ "failure_mode": "Coolant leakage at laser weld seam", "process_step": "OP20 laser welding tank to core plate", "component": "Charge air cooler tank",
+ "symptom": "Leak at customer EOL test, lack of penetration at seam start", "root_cause_family": "Laser power loss due to protective glass contamination",
+ "occurrence_cause": "Spatter on protective glass reduced power at workpiece; glass changed on fixed interval only",
+ "escape_cause": "In-house leak test at lower pressure than customer EOL", "corrective_actions": ["Inline laser power monitoring with interlock", "Leak test pressure aligned to customer EOL", "Protective glass change on power drop"],
+ "lessons_learned": "Monitor power at workpiece, not at source. Align in-house leak test pressure with customer end-of-line test. Read across to all laser-welded coolers.",
+ "outcome": "closed on time", "duration_days": 41, "source_path": "sharepoint://quality/8d/8D-2024-031"}

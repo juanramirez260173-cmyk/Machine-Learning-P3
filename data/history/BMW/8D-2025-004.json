@@ -1,0 +1,6 @@
+{"case_id": "8D-2025-004", "customer": "BMW", "year": 2025, "title": "EGR cooler bypass flap sticking at low temperature",
+ "failure_mode": "Bypass flap sticking", "process_step": "OP40 flap assembly", "component": "EGR cooler bypass flap",
+ "symptom": "Flap actuator fault code at -20 C", "root_cause_family": "Tolerance stack-up shaft to bushing",
+ "occurrence_cause": "Bushing supplier changed material batch with higher shrinkage", "escape_cause": "Functional test at room temperature only",
+ "corrective_actions": ["Cold functional test on 1 part per lot", "Supplier PPAP re-approval of bushing material"], "lessons_learned": "Add cold-test to Control Plan for actuated parts; supplier material change notification enforced.",
+ "outcome": "closed late", "duration_days": 78, "source_path": "sharepoint://quality/8d/8D-2025-004"}

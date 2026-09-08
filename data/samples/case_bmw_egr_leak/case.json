@@ -1,0 +1,45 @@
+{
+  "case_id": "CASE-2026-0001",
+  "pqm_number": "PQM-4711-2026",
+  "eight_d_number": "8D-2026-017",
+  "customer": "BMW",
+  "plant": "Plant A - Thermal Systems",
+  "line": "EGR cooler line 2",
+  "project": "B48 EGR cooler",
+  "product": {
+    "part_number": "11 71 8 512 345",
+    "part_name": "EGR cooler assembly",
+    "drawing_revision": "F",
+    "lots": ["L26-0812", "L26-0813"],
+    "dmc_or_serials": ["DMC 26081200417", "DMC 26081200988", "DMC 26081300122"],
+    "production_date_from": "2026-08-12",
+    "production_date_to": "2026-08-13"
+  },
+  "failure": {
+    "failure_mode": "Coolant leakage at laser weld seam of the inlet tank",
+    "location": "Inlet tank to core plate weld seam, position 3 o'clock",
+    "requirement": "Leak rate <= 2.0 cm3/min at 2.5 bar (drawing note 7)",
+    "actual_result": "Leak rate 18 cm3/min at 2.5 bar on 3 returned parts",
+    "detection_point": "Customer engine plant EOL leak test (0 km)",
+    "quantity_affected": 3,
+    "quantity_inspected": 480,
+    "defect_code": "LEAK-WELD-03"
+  },
+  "severity": "high",
+  "owner": "M. Ortega (8D owner)",
+  "detection_date": "2026-08-27",
+  "opened_date": "2026-08-28",
+  "customer_due_date": "2026-09-26",
+  "team": {
+    "quality_lead": "S. Weber",
+    "process_engineer": "A. Kumar",
+    "pfmea_moderator": "L. Fischer",
+    "control_plan_owner": "R. Diaz",
+    "production_representative": "J. Novak",
+    "customer_quality_lead": "S. Weber",
+    "plant_quality_manager": "P. Braun",
+    "plant_manager": "T. Hoffmann"
+  },
+  "tags": ["laser-welding", "leak-test"],
+  "source_lineage": ["sharepoint://quality/pqm/PQM-4711-2026"]
+}

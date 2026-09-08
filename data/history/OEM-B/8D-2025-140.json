@@ -1,0 +1,5 @@
+{"case_id": "8D-2025-140", "customer": "OEM-B", "year": 2025, "title": "Turbocharger actuator rod corrosion",
+ "failure_mode": "Corrosion on actuator rod", "process_step": "OP30 coating", "component": "Turbo actuator rod",
+ "symptom": "Field return after 12 months", "root_cause_family": "Coating thickness below spec", "occurrence_cause": "Bath concentration drift",
+ "escape_cause": "Thickness measured on witness coupon only", "corrective_actions": ["Bath titration every 4 h", "Thickness on parts per lot"],
+ "lessons_learned": "Measure on product, not only on coupons.", "outcome": "closed late", "duration_days": 95, "source_path": "sharepoint://quality/8d/8D-2025-140"}

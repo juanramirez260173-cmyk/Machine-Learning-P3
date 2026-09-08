@@ -1,0 +1,24 @@
+# Customer-specific overrides (deep-merged on top of default.yaml).
+# Values below are illustrative and must be confirmed against the customer's
+# supplier-quality manual and the PQM process at G1.
+customer: "BMW"
+terminology:
+  complaint_record: "PQM"
+  eight_d: "8D report"
+  escalation_level_3: "CS2 / Q-Escalation"
+discipline_deadlines_days:
+  D3: 1     # first containment feedback within 24 h
+  D4: 10
+  D8: 60    # illustrative customer due date default
+escalation:
+  warn_days_to_due: 5
+  critical_days_to_due: 2
+eight_d_template:
+  D1: "Team"
+  D2: "Problem description"
+  D3: "Interim containment actions"
+  D4: "Root cause analysis (occurrence / non-detection)"
+  D5: "Chosen permanent corrective actions"
+  D6: "Implementation and validation of corrective actions"
+  D7: "Prevention of recurrence (PFMEA, Control Plan, WI, lessons learned)"
+  D8: "Closure and team recognition"
